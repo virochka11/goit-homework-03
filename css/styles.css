@@ -1,3 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+/* Решта коду */
 :root {
   --page-color: #ffffff;
   --main-text: #2e2f42;
@@ -63,6 +85,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text);
+  
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -192,6 +215,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  padding-left: 472px;
+  padding-top: 188px;
+  padding-right: 472px;
+  padding-bottom: 292px;
 }
 /** FOOTER */
 .footer {
