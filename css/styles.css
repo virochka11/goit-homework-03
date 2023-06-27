@@ -106,7 +106,10 @@ body {
 .accent-color {
   color: var(--accent-color);
 }
-
+.menu {
+  display: flex;
+  gap: 40px;
+}
 .menu-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
