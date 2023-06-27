@@ -61,8 +61,19 @@ body {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+  padding: 0 15px 0 15px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  gap: 40px;
+
 }
 .logo {
+  margin-right: 76px;
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -114,6 +125,8 @@ body {
   font-style: normal;
 }
 .contacts-list {
+  display: flex;
+  gap: 40px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -215,7 +228,7 @@ body {
   background-color: var(--page-color);
 }
 
-.main-section-hero {
+.main-section {
   color: var(--main-text);
 }
 .solution-title {
