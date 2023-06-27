@@ -330,6 +330,7 @@ padding-bottom: 120px;
 }
 
 .solution-title {
+  display: flex;
   font-size: 56px;
   font-family: Roboto;
   line-height: 1.07;
@@ -340,7 +341,7 @@ padding-bottom: 120px;
   margin: 0;
 }
 .solution-item {
- width: calc((100% - 48px) / 3);
+ width: calc ((100% - 48px) / 3);
 }
 
 /** FOOTER */
