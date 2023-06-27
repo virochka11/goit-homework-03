@@ -69,7 +69,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   padding: 0 15px 0 15px;
+  
  
+}
+.container-pege {
+  display: flex;
 }
 .navigation {
   display: flex;
