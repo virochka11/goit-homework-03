@@ -204,12 +204,24 @@ body {
   letter-spacing: var(--ls-small);
   color: var(--main-text);
 }
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+} 
+
+.container-portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .btn-list {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  
+
 }
 .hero {
   background-color: var(--main-text); ;
@@ -221,6 +233,9 @@ body {
   }
 
 .portfolio-button {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -233,6 +248,7 @@ body {
 .portfolio-button:hover,
 .portfolio-button:focus,
 .portfolio-button:active {
+  border: 1px solid transparent;
   background-color: var(--action-color);
   color: var(--page-color);
 }
