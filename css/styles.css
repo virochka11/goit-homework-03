@@ -214,6 +214,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .btn-list {
