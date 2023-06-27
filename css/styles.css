@@ -62,14 +62,17 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   padding: 0 15px 0 15px;
+  margin: 0;
 }
 .navigation {
   display: flex;
   align-items: center;
+  
 }
 .nav {
   display: flex;
   gap: 40px;
+ 
 
 }
 .logo {
