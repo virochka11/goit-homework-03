@@ -70,10 +70,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #4d5ae5;
+  color: var(--accent-color)
 }
 .light {
-  color: #f4f4fd;
+  color: var(--light-text)
 }
 .dark {
   color: var(--main-text);
