@@ -169,6 +169,11 @@ body {
 .solution-list {
   display: flex;
   gap: 24px;
+} 
+.item-list {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 3*16px))
 }
 
 .desc-list {
@@ -176,6 +181,7 @@ body {
   letter-spacing: 0.02em;
 }
 .section-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -255,6 +261,7 @@ body {
 }
 
 .main-section {
+  padding-bottom: 120px;
   padding: 188px 0;
   color: var(--main-text);
 }
