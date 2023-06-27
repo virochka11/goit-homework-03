@@ -316,10 +316,11 @@ body {
 }
 
 .main-section {
-  padding-bottom: 120px;
+  padding: 188px 0;
   color: var(--main-text);
   
 }
+
 .solution-title {
   font-size: 56px;
   font-family: Roboto;
@@ -331,7 +332,7 @@ body {
   margin: 0;
 }
 .solution-item {
-  width: calc((100% - 48px) / 3);
+  calc((100% - 48px) / 3);
 }
 
 /** FOOTER */
