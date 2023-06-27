@@ -204,6 +204,13 @@ body {
   letter-spacing: var(--ls-small);
   color: var(--main-text);
 }
+.btn-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+  
+}
 .hero {
   background-color: var(--main-text); ;
 }
@@ -228,6 +235,11 @@ body {
 .portfolio-button:active {
   background-color: var(--action-color);
   color: var(--page-color);
+}
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+
 }
 
 .portfolio-list {
