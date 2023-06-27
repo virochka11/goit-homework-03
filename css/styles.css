@@ -318,7 +318,10 @@ body {
 .main-section {
   padding: 188px 0;
   color: var(--main-text);
-  
+
+}
+.main-section-product {
+  padding: 120px 0;
 }
 
 .solution-title {
