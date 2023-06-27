@@ -69,12 +69,13 @@ body {
   align-items: center;
   
 }
-.nav {
+.nav{
   display: flex;
   gap: 40px;
+  
+ }
  
 
-}
 .logo {
   margin-right: 76px;
   font-family: Raleway, sans-serif;
@@ -104,6 +105,7 @@ body {
   line-height: 24px;
 }
 .nav-link {
+  padding: 24px 0;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -131,6 +133,9 @@ body {
 .contacts-list {
   display: flex;
   gap: 40px;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -243,6 +248,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin: 0;
   padding-left: 472px;
   padding-top: 188px;
   padding-right: 472px;
