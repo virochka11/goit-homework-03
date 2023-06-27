@@ -116,6 +116,7 @@ body {
 .contact-item > a:focus {
   color: var(--action-color);
 }
+
 .contact-item > a {
   font-size: var(--description-size);
   line-height: var(--description-height);
@@ -147,6 +148,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-text);
+  
 }
 .desc-list {
   line-height: 1.5;
@@ -247,6 +249,7 @@ body {
   padding-bottom: 292px;
   
 }
+
 /** FOOTER */
 .footer {
   background: var(--main-text);
