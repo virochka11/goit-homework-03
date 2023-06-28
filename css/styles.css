@@ -279,6 +279,9 @@ padding-bottom: 120px;
 .link {
   text-decoration: none;
 }
+.main-section-product {
+  padding-bottom: 120px;
+}
 .main-team {
   padding: 120px 0;
   background-color: #f4f4fd;
@@ -340,7 +343,7 @@ padding-bottom: 120px;
   margin-bottom: 48px;
 }
 .solution-item {
- width: calc ((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 /** FOOTER */
