@@ -244,8 +244,7 @@ padding-bottom: 120px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
-    
+     
   }
 
 .portfolio-button {
@@ -338,6 +337,7 @@ padding-bottom: 120px;
   color: #ffffff;
   max-width: 496px ;
   margin: auto;
+  margin-bottom: 48px;
 }
 .solution-item {
  width: calc ((100% - 48px) / 3);
@@ -349,11 +349,15 @@ padding-bottom: 120px;
   background: var(--main-text);
 }
 .footer-desc {
+  width: 264px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
 .button {
   margin: auto;
