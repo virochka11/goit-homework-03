@@ -259,8 +259,8 @@ body {
 .main-section {
   padding: 188px 0;
   color: var(--main-text);
-  background-image: url();
 }
+
 .item {
   width: calc((100% - 72px) / 4);
 }
@@ -280,6 +280,7 @@ body {
 .solution-item {
   width: calc((100% - 48px) / 3);
 }
+
 /** PORTFOLIO */
 /* #region PORTFOLIO*/
 
